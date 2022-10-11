@@ -18,3 +18,22 @@ header#main-logo img {
     vertical-align: top;
     width: 100px;
 }
+
+#container {
+    background-color: bisque;
+    height: 1200px;
+    padding-top: 20px;
+}
+
+.button-container {
+    background-color: white;
+    margin: auto;
+    width: 70%;
+    padding: 20px;
+}
+
+#task-button {
+    background-color: aqua;
+}
+
+
