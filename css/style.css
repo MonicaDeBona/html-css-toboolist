@@ -34,6 +34,19 @@ header#main-logo img {
 
 #task-button {
     background-color: aqua;
+    border-radius: 5px;
+    border: solid 7px aqua;
+    width: 80px;
+    color: white;
+}
+
+#section-button {
+    background-color: white;
+    border-radius: 5px;
+    border: solid 1px gray;
+    width: 120px;
+    height: 30px;
+    color: gray;
 }
 
 
