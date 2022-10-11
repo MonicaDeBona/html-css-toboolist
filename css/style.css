@@ -49,4 +49,12 @@ header#main-logo img {
     color: gray;
 }
 
+#todolist-container {
+    background-color: white;
+    margin: auto;
+    width: 70%;
+    padding: 20px;
+    margin: 10px;
+
+}
 
