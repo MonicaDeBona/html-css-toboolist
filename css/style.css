@@ -69,3 +69,40 @@ header#main-logo img {
 #Upcoming{
     padding-bottom: 20px;
 }
+
+.editorial-span {
+    background-color: aqua;
+}
+
+.q1goals-span {
+    background-color: brown;
+}
+
+.recruiting-span {
+    background-color: rgb(97, 50, 199);
+}
+
+.mobile-span {
+    background-color: rgb(183, 111, 3);
+}
+
+.website-span {
+    background-color: rgb(87, 25, 88);
+}
+
+.sales-span {
+    background-color: rgb(72, 72, 125);
+}
+
+.white-span {
+    background-color: transparent;
+    color: transparent;
+}
+
+
+#todolist-container span {
+    border-radius: 10px;
+    font-size: 0.8rem;
+    padding: 5px;
+    line-height: 3rem;
+}
