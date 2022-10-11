@@ -106,3 +106,12 @@ header#main-logo img {
     padding: 5px;
     line-height: 3rem;
 }
+
+li {
+    list-style: none;
+}
+
+.check {
+    border-radius: 100%;
+    border: solid 1px green;
+}
