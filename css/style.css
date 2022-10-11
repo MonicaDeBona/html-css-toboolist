@@ -1,14 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 /* RESET */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1 {
     display: inline-block;
     font-size: 5rem;
-    
+    color: #061a32;
 }
 
 header#main-logo img {
@@ -20,7 +23,7 @@ header#main-logo img {
 }
 
 #container {
-    background-color: bisque;
+    background-color: rgba(246,248,249,255);
     height: 1200px;
     padding-top: 20px;
 }
@@ -30,13 +33,13 @@ header#main-logo img {
     margin: auto;
     width: 70%;
     padding: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 #task-button {
-    background-color: aqua;
+    background-color: #061a32;
     border-radius: 5px;
-    border: solid 7px aqua;
+    border: solid 7px #061a32;
     width: 80px;
     color: white;
 }
@@ -72,26 +75,32 @@ header#main-logo img {
 
 .editorial-span {
     background-color: aqua;
+    color: white;
 }
 
 .q1goals-span {
     background-color: brown;
+    color: white;
 }
 
 .recruiting-span {
     background-color: rgb(97, 50, 199);
+    color: white;
 }
 
 .mobile-span {
     background-color: rgb(183, 111, 3);
+    color: white;
 }
 
 .website-span {
     background-color: rgb(87, 25, 88);
+    color: white;
 }
 
 .sales-span {
     background-color: rgb(72, 72, 125);
+    color: white;
 }
 
 .white-span {
@@ -103,7 +112,7 @@ header#main-logo img {
 #todolist-container span {
     border-radius: 10px;
     font-size: 0.8rem;
-    padding: 5px;
+    padding: 8px;
     line-height: 3rem;
 }
 
@@ -112,6 +121,37 @@ li {
 }
 
 .check {
-    border-radius: 100%;
-    border: solid 1px green;
+    border: solid 1px #8dcd63;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    vertical-align: middle;
+    text-align:center;
+    color: #8dcd63;
+    font-size: 0.8rem;
 }
+
+.uncheck {
+    border: solid 1px #e74d35;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    vertical-align: middle;
+    text-align:center;
+    color: #e74d35;
+    font-size: 0.8rem;
+}
+
+li {
+    color: #333;
+    font-size: 1.4rem;
+}
+
+.section-title {
+    color: #333;
+}
+
+
+
