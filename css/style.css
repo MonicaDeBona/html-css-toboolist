@@ -74,32 +74,27 @@ header#main-logo img {
 }
 
 .editorial-span {
-    background-color: aqua;
-    color: white;
-}
-
-.q1goals-span {
-    background-color: brown;
+    background-color: #1b63bb;
     color: white;
 }
 
 .recruiting-span {
-    background-color: rgb(97, 50, 199);
+    background-color: #331bbb;
     color: white;
 }
 
 .mobile-span {
-    background-color: rgb(183, 111, 3);
+    background-color: #bb731b;
     color: white;
 }
 
 .website-span {
-    background-color: rgb(87, 25, 88);
+    background-color: #931bbb;
     color: white;
 }
 
 .sales-span {
-    background-color: rgb(72, 72, 125);
+    background-color: #63bb1b;
     color: white;
 }
 
